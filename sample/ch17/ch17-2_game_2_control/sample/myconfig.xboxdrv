@@ -1,0 +1,41 @@
+[xboxdrv]
+ ui-clear=true
+ silent = true
+ 
+ [axis-sensitivity]
+ X2=-0.5
+ Y2=-0.5
+ 
+ [ui-axismap]
+ x2^dead:4000 = REL_X:750:-1
+ y2^dead:4000 = REL_Y:750:-1
+ 
+ 
+ y1^dead:6000^invert = rel-repeat:REL_WHEEL:1:50
+ x1^dead:6000 = rel-repeat:REL_HWHEEL:1:50
+ 
+ lt = KEY_VOLUMEDOWN:20
+ rt = KEY_VOLUMEUP:20
+ 
+ [ui-buttonmap]
+ a = BTN_Z
+ b = BTN_X
+ x = BTN_MIDDLE
+ y = KEY_ENTER
+ 
+ rb = BTN_LEFT
+ lb = BTN_RIGHT
+ 
+ tl = KEY_BACKSPACE
+ tr = KEY_SPACE
+ 
+ dl = KEY_LEFT
+ dr = KEY_RIGHT
+ du = KEY_UP
+ dd = KEY_DOWN
+ 
+ start = KEY_P
+ back  = KEY_BACK
+ guide = KEY_ESC
+ 
+ # EOF #
